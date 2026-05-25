@@ -4,6 +4,10 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>SEO Audit &middot; Law Office of Cynthia Benavides</title>
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Law Office of Cynthia Benavides | SEO Audit" />
+<meta property="og:description" content="The firm ranks in Weslaco but is invisible across the rest of the Rio Grande Valley and Spanish search. Here's what that's worth and the fastest fix, with a sample redesign." />
+<link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32'><rect width='32' height='32' rx='6' fill='%230f2742'/><text x='16' y='21' font-family='Georgia' font-size='13' fill='%23c8a04a' text-anchor='middle'>AG</text></svg>" />
 <style>
   :root{--navy:#0f2742;--gold:#b08a32;--ink:#1a2230;--muted:#5b6676;--line:#e6e9ef;--bg:#f6f8fb;--good:#1f8a4c;--warn:#c77d12;--bad:#c0392b}
   *{box-sizing:border-box;margin:0;padding:0}
@@ -43,6 +47,14 @@
   footer{padding:30px 50px;background:var(--navy);color:#bcd;font-size:.82rem;text-align:center}
   a{color:var(--gold)}
   @media(max-width:680px){.cover,.body{padding:32px 24px}.grid2{grid-template-columns:1fr}}
+  .g2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .readout{border:1px solid var(--line);border-radius:12px;overflow:hidden;margin:14px 0}
+  .readout .bar{background:var(--navy);color:#fff;padding:11px 16px;font-size:.84rem;font-weight:600}
+  .readout .res{padding:14px 18px;background:#fff}
+  .readout .res .item{padding:8px 0;border-bottom:1px solid #eef1f5;color:var(--ink);font-size:.94rem}
+  .readout .res .item:last-child{border-bottom:none}
+  .readout .res .you{color:var(--bad);font-weight:700}
+  @media(max-width:600px){.g2{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -89,7 +101,7 @@
     <section>
       <h2>See the difference</h2>
       <p>On the left is the current homepage. On the right is a working sample redesign we built, live and clickable, with deeper service content, Valley-wide coverage, schema and the lead-capture form this audit recommends.</p>
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:start">
+      <div class="g2" style="align-items:start">
         <div>
           <div style="font-size:.74rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--bad);margin-bottom:6px">Before &middot; current site</div>
           <img src="https://andrei170.github.io/benavides-law-site/img/current-site.png" alt="Current Benavides Law Firm homepage" style="width:100%;border:1px solid var(--line);border-radius:10px" />
@@ -195,17 +207,21 @@
     <section>
       <h2>The proof, captured</h2>
       <p>This is not theory. Here is what we found when we ran the searches your future clients run, in May 2026:</p>
-      <div class="callout">
-        <strong>Searches across the Valley (captured May 2026).</strong><br/><br/>
-        For "estate planning attorney McAllen" the named firms were Barrera, Sanchez &amp; Associates and the Almaguer Law Firm.<br/><br/>
-        The Law Office of Cynthia Benavides surfaced only for branded searches ("Cynthia Benavides") and the narrow "Weslaco" term, <span style="color:var(--bad);font-weight:700">not for the wider Valley cities or the problem-based searches</span> ("how to avoid probate in Texas," "Lady Bird deed") that bring in new clients.
+      <div class="readout">
+        <div class="bar">&#128269; "estate planning attorney McAllen" &middot; results captured May 2026</div>
+        <div class="res">
+          <div class="item">1. Barrera, Sanchez &amp; Associates, P.C.</div>
+          <div class="item">2. Almaguer Law Firm</div>
+          <div class="item you">&times; Law Office of Cynthia Benavides not named (ranks only for "Cynthia Benavides" and "Weslaco")</div>
+        </div>
       </div>
+      <p>You win the branded and Weslaco searches. You are missing the wider Valley cities and the problem-based searches ("how to avoid probate in Texas," "Lady Bird deed") that bring in new clients before they ever call a firm.</p>
     </section>
 
     <section>
       <h2>Revenue at stake</h2>
       <p>Estate plans in the Valley commonly run around $2,500 and probate matters $4,000 to $8,000. Right now you rank in Weslaco only, so the wider Valley and the Spanish-language searches go to other firms. Here is what that gap is worth:</p>
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:8px 0 14px">
+      <div class="g2" style="margin:8px 0 14px">
         <div style="border:1px solid #f0c8c2;background:#fdeeec;border-radius:14px;padding:22px">
           <div style="font-size:.74rem;font-weight:800;text-transform:uppercase;letter-spacing:.05em;color:var(--bad)">Bleeding now</div>
           <div style="font-family:Georgia,serif;font-size:1.95rem;color:var(--bad);margin:6px 0 2px">$7,500&ndash;$16,000<span style="font-size:1rem">/mo</span></div>
